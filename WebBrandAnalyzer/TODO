@@ -1,0 +1,93 @@
+Foursqaure API:
+https://developer.foursquare.com/docs/explore#req=venues/5087fb9d45b052dc781007a4
+
+YOUTUBE: https://www.youtube.com/analytics
+https://developers.google.com/youtube/analytics/
+
+FACEBOOK:
+https://developers.facebook.com/tools/explorer
+
+Twitter:
+https://dev.twitter.com/console
+
+Google+
+https://developers.google.com/+/api/
+
+Homepage (from analytics)
+https://developers.google.com/analytics/
+
+
+RSS
+Just read in the xml and count
+
+Podcast
+Just read in the xml and count
+
+NAVIGATION: configured Connections (+Add Connection)
+
+DATA is displayed FROM the Database.
+GRAPHING via d3.js or SIMPLE php
+FILTERING date
+SORTING sorttable.js
+
+SAVES to DB via cronjob every hour (save.php) FOREACH Brand FOREACH Connection INTO BHCD
+
+OUTPUT via BUTTON as XML, HTML, CSV, PDF
+
+DATABASE
+(MultiBrand)
+-->BRAND (id, name, login, pwd)
+-->CONNECTIONS(id, name)
+---->BRAND_HAS_CONNECTION(id, id_brand, id_connection, [DATA]:connectionString...) (ex: 1, FEG, RSS, feed.xml)
+------>BRAND_HAS_CONNECTION_DATA(bhc_id, timestamp, [DATA]:Key:Value;
+
+
+NUMBERS:
+Homepage:
+
+
+Facebook:
+Number of Posts, FullNumber of Coms and Likes
+PostRating = (Comments * 4) + (Likes * 2) + Likes_on_Comments
+PostTypes: LinkPosts, DIrectPosts, FanPosts
+Displays: Highest, Average, TimeLine, Ranking
+Facebook-Score = 
+
+Twitter:
+Tweets (Anzahl, Änderungsrate, Graph)
+TweetScore = Retweets (Best, Ranking, Average)
+Follower (Anzahl, Änderungsrate, Graph)
+Hashtags ( Ranking)
+Twitter-Score = 
+
+Google+:
+In den Kreisen (Anzahl, Änderung, Graph)
+Beiträge (Anzahl, Änderungsrate, Graph)
+BeitragsScore = “+1” + Comment*3 + Teilen * 2
+Google+Score = 
+
+RSS:
+Beiträge (Anzahl, Änderung, Graph)
+Findable?
+RSS-Score = 
+
+PODCAST:
+Beiträge (Anzahl, Änderung, Graph)
+Findable?
+Podcast-Score = 
+
+YOUTUBE:
+Videos (Anzahl, Änderungsrate, Graph)
+Abonnenten (Anzahl, Änderungsrate, Graph)
+VideoScore =Views*1 + Negative * 1 + Positive*3 + Comments*2
+YouTube-Score = 
+
+FOURSQUARE:
+Besucher (Anzahl,. Änderung, Graph)
+Check-Ins (Anzahl, Änderung, Graph)
+Check-Ins pro Besucher (Zahl, Änderung, Graph)
+FS-Score = 
+
+
+
+
