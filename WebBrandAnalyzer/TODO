@@ -54,40 +54,40 @@ Displays: Highest, Average, TimeLine, Ranking
 Facebook-Score = 
 
 Twitter:
-Tweets (Anzahl, Änderungsrate, Graph)
+Tweets (Anzahl, Ã„nderungsrate, Graph)
 TweetScore = Retweets (Best, Ranking, Average)
-Follower (Anzahl, Änderungsrate, Graph)
+Follower (Anzahl, Ã„nderungsrate, Graph)
 Hashtags ( Ranking)
 Twitter-Score = 
 
 Google+:
-In den Kreisen (Anzahl, Änderung, Graph)
-Beiträge (Anzahl, Änderungsrate, Graph)
-BeitragsScore = “+1” + Comment*3 + Teilen * 2
+In den Kreisen (Anzahl, Ã„nderung, Graph)
+BeitrÃ¤ge (Anzahl, Ã„nderungsrate, Graph)
+BeitragsScore = â€œ+1â€� + Comment*3 + Teilen * 2
 Google+Score = 
 
 RSS:
-Beiträge (Anzahl, Änderung, Graph)
+BeitrÃ¤ge (Anzahl, Ã„nderung, Graph)
 Findable?
 RSS-Score = 
 
 PODCAST:
-Beiträge (Anzahl, Änderung, Graph)
+BeitrÃ¤ge (Anzahl, Ã„nderung, Graph)
 Findable?
 Podcast-Score = 
 
 YOUTUBE:
-Videos (Anzahl, Änderungsrate, Graph)
-Abonnenten (Anzahl, Änderungsrate, Graph)
+Videos (Anzahl, Ã„nderungsrate, Graph)
+Abonnenten (Anzahl, Ã„nderungsrate, Graph)
 VideoScore =Views*1 + Negative * 1 + Positive*3 + Comments*2
 YouTube-Score = 
 
 FOURSQUARE:
-Besucher (Anzahl,. Änderung, Graph)
-Check-Ins (Anzahl, Änderung, Graph)
-Check-Ins pro Besucher (Zahl, Änderung, Graph)
+Besucher (Anzahl,. Ã„nderung, Graph)
+Check-Ins (Anzahl, Ã„nderung, Graph)
+Check-Ins pro Besucher (Zahl, Ã„nderung, Graph)
 FS-Score = 
 
-
+tet
 
 
