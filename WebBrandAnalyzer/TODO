@@ -23,6 +23,9 @@ Just read in the xml and count
 Podcast
 Just read in the xml and count
 
+
+
+
 NAVIGATION: configured Connections (+Add Connection)
 
 DATA is displayed FROM the Database.
@@ -34,6 +37,9 @@ SAVES to DB via cronjob every hour (save.php) FOREACH Brand FOREACH Connection I
 
 OUTPUT via BUTTON as XML, HTML, CSV, PDF
 
+
+
+
 DATABASE
 (MultiBrand)
 -->BRAND (id, name, login, pwd)
@@ -42,8 +48,14 @@ DATABASE
 ------>BRAND_HAS_CONNECTION_DATA(bhc_id, timestamp, [DATA]:Key:Value;
 
 
+
+
+
 NUMBERS:
 Homepage:
+
+
+
 
 
 Facebook:
@@ -53,6 +65,9 @@ PostTypes: LinkPosts, DIrectPosts, FanPosts
 Displays: Highest, Average, TimeLine, Ranking
 Facebook-Score = 
 
+
+
+
 Twitter:
 Tweets (Anzahl, Ã„nderungsrate, Graph)
 TweetScore = Retweets (Best, Ranking, Average)
@@ -60,21 +75,33 @@ Follower (Anzahl, Ã„nderungsrate, Graph)
 Hashtags ( Ranking)
 Twitter-Score = 
 
+
+
+
 Google+:
 In den Kreisen (Anzahl, Ã„nderung, Graph)
 BeitrÃ¤ge (Anzahl, Ã„nderungsrate, Graph)
 BeitragsScore = â€œ+1â€� + Comment*3 + Teilen * 2
 Google+Score = 
 
+
+
+
 RSS:
 BeitrÃ¤ge (Anzahl, Ã„nderung, Graph)
 Findable?
 RSS-Score = 
 
+
+
+
 PODCAST:
 BeitrÃ¤ge (Anzahl, Ã„nderung, Graph)
 Findable?
 Podcast-Score = 
+
+
+
 
 YOUTUBE:
 Videos (Anzahl, Ã„nderungsrate, Graph)
@@ -82,12 +109,16 @@ Abonnenten (Anzahl, Ã„nderungsrate, Graph)
 VideoScore =Views*1 + Negative * 1 + Positive*3 + Comments*2
 YouTube-Score = 
 
+
+
+
 FOURSQUARE:
 Besucher (Anzahl,. Ã„nderung, Graph)
 Check-Ins (Anzahl, Ã„nderung, Graph)
 Check-Ins pro Besucher (Zahl, Ã„nderung, Graph)
 FS-Score = 
 
-tet
+
+
 
 
