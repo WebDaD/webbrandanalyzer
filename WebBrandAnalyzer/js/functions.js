@@ -17,7 +17,8 @@
  *  @author Dominik Sigmund
  */
 function init_page(){
-	//TODO: Dashboard
+	//TODO: Dashboard for loggedInUser or Message: Please Login
+	//TODO: Navigation for loggedInUser or nothing
 }
 
 function showLogin(){

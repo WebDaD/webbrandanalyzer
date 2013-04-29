@@ -1,1 +1,4 @@
 <?php
+//TODO: GET ALL BRAND_HAS_CONNECTION
+//TODO: GET DATA
+//TODO: Write into BHCD
