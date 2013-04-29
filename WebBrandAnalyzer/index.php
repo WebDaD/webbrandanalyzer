@@ -9,6 +9,7 @@ session_start();
 		<script src="js/functions.js" type="text/javascript"></script>
 		<script src="js/gui.js" type="text/javascript"></script>
 		<script src="js/helper.js" type="text/javascript"></script>
+		<script src="js/md5.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -38,7 +39,7 @@ session_start();
 		<script type="text/javascript">
 			init_page();
 			<?php 
-			if(!isset($_SESSION["gdp_id"])){
+			if(!isset($_SESSION["wba_id"])){
 				echo "showLogin();";
 			}
 			else {
