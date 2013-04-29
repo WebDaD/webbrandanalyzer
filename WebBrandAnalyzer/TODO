@@ -33,10 +33,10 @@ GRAPHING via d3.js or SIMPLE php
 FILTERING date
 SORTING sorttable.js
 
-SAVES to DB via cronjob every hour (save.php) FOREACH Brand FOREACH Connection INTO BHCD
+SAVES to DB via cronjob every day (cronjob.php) FOREACH Brand FOREACH Connection INTO BHCD
 
-OUTPUT via BUTTON as XML, HTML, CSV, PDF
-
+OUTPUT via API as XML, HTML, CSV, PDF, PNG
+PAGES
 
 
 
@@ -90,7 +90,7 @@ Google+Score =
 RSS:
 BeitrÃ¤ge (Anzahl, Ã„nderung, Graph)
 Findable?
-RSS-Score = 
+RSS-Score = Änderung/Zeit
 
 
 
@@ -107,16 +107,15 @@ YOUTUBE:
 Videos (Anzahl, Ã„nderungsrate, Graph)
 Abonnenten (Anzahl, Ã„nderungsrate, Graph)
 VideoScore =Views*1 + Negative * 1 + Positive*3 + Comments*2
-YouTube-Score = 
+YouTube-Score = (Videos_Score)+(Abonnenten_Score)+(VideScore/Videos)
 
 
 
 
 FOURSQUARE:
-Besucher (Anzahl,. Ã„nderung, Graph)
-Check-Ins (Anzahl, Ã„nderung, Graph)
-Check-Ins pro Besucher (Zahl, Ã„nderung, Graph)
-FS-Score = 
+Besucher (Anzahl,. Ã„nderung, Graph) > Score = Anzahl + (Änderung / Zeit)
+Check-Ins (Anzahl, Ã„nderung, Graph) > Score = Anzahl + (Änderung / Zeit)
+FS-Score = Besucherscore + CHeck-In_Score
 
 
 

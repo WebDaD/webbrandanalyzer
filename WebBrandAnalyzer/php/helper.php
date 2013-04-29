@@ -142,4 +142,8 @@ function endsWith($haystack, $needle)
 	return (substr($haystack, -$length) === $needle);
 }
 
+function filter($data,$time){
+	
+}
+
 ?>
