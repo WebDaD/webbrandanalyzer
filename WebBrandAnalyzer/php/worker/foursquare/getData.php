@@ -23,7 +23,12 @@ else {$debug=false;}
 $id=getPar("id",true,"No ID given.");
 if($debug)echo "ID: ".$id."<br/>";
 
-
+//INTO DATABASE: Besucher:XX|BesucherChange:XX|BesucherScore:XX|CheckIns:YY|CheckInChange:YY|CheckInScore:YY|Score:ZZ
+/*
+ * Besucher (Anzahl, Änderung) > Score = Anzahl + (Änderung / Last-Time)
+Check-Ins (Anzahl, Änderung) > Score = Anzahl + (Änderung / Last-Time)
+FS-Score = Besucherscore + CHeck-In_Score
+ */
 
 mysql_close();
 ?>
